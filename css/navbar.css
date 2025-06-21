@@ -9,6 +9,7 @@
     position: fixed;
     z-index: 1000;
     width: 100%;
+    box-shadow: 0 6px 8px #8b008b80;
 }
 
 .navbar-brand {
@@ -24,6 +25,7 @@
     margin: 0;
     padding: 0;
     display: flex; /* For desktop view */
+    box-shadow: 0 6px 8px #8b008b80;
 }
 .nav-links li {
     margin-left: 25px;
@@ -44,7 +46,7 @@
     flex-direction: column;
     cursor: pointer;
     padding: 10px;
-    z-index: 1000; /* Ensure it's above other content */
+    z-index: 10000; /* Ensure it's above other content */
 }
 .hamburger .bar {
     width: 30px;

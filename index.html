@@ -3,36 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>CSS Techniques</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <div class="hamburger-menu">
-        <div>
-          <p>Menu</p>
-        </div>
-        <div class="hamburger-menu-line-container">
-          <div class="hamburger-menu-line"></div>
-          <div class="hamburger-menu-line"></div>
-          <div class="hamburger-menu-line"></div>
-        </div>
+    <img class="background-image" src="culture.jpg" alt="Background Image" />
+    <nav class="navbar">
+      <a href="#" class="navbar-brand">CSS Techniques</a>
+      <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
       </div>
-    </nav>
+      <ul class="nav-links" id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+  </nav>
     <main>
-      <h1>Hello World</h1>
-      <p>This is a paragraph</p>
-      <a href="https://www.google.com">Google</a>
+      <h1>Hello World!</h1>
     </main>
-    <img
-      class="background-image"
-      src="culture.jpg"
-      alt="Background Image"
-    />
+    <script src="main.js"></script>
   </body>
 </html>

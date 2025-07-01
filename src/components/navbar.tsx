@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="#" className="navbar-brand">
-        React + TypeScript + Vite
+        React + Vite Architecture
       </a>
       <button 
         className={`hamburger ${isOpen ? "active" : ""}`} 

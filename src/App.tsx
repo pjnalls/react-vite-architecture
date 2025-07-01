@@ -6,7 +6,7 @@ function App() {
     <>
       <img
         className="background-image"
-        src="/culture.jpg"
+        src="culture.jpg"
         alt="Background Image"
       />
       <Navbar />

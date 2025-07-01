@@ -45,6 +45,8 @@
     display: none; /* Hidden on desktop */
     flex-direction: column;
     cursor: pointer;
+    background-color: transparent;
+    border: none;
     padding: 10px;
     z-index: 10000; /* Ensure it's above other content */
 }

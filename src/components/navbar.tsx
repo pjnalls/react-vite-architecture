@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="#" className="navbar-brand">
-        CSS Techniques
+        React + TypeScript + Vite
       </a>
       <button 
         className={`hamburger ${isOpen ? "active" : ""}`} 
@@ -24,16 +24,16 @@ const Navbar = () => {
         onClick={() => setIsOpen(false)}
       >
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Services</a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>

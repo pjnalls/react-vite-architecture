@@ -1,4 +1,12 @@
 import Navbar from './components/navbar';
+
+import Home from './components/sections/home';
+import About from './components/sections/about';
+import Services from './components/sections/services';
+import Contact from './components/sections/contact';
+
+import Footer from './components/footer';
+
 import './styles/App.css';
 
 function App() {
@@ -11,35 +19,12 @@ function App() {
       />
       <Navbar />
       <main>
-        <section id="home">
-          <h2>Home</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quos.
-          </p>
-        </section>
-        <section id="about">
-          <h2>About</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quos.
-          </p>
-        </section>
-        <section id="services">
-          <h2>Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quos.
-          </p>
-        </section>
-        <section id="contact">
-          <h2>Contact</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quos.
-          </p>
-        </section>
+        <Home />
+        <About />
+        <Services />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }

@@ -1,11 +1,12 @@
-import Navbar from './components/navbar';
+import Navbar from './components/navigation/navbar';
 
 import Home from './components/sections/home';
 import About from './components/sections/about';
+import Dashboard from './components/sections/dashboard';
 import Services from './components/sections/services';
 import Contact from './components/sections/contact';
 
-import Footer from './components/footer';
+import Footer from './components/navigation/footer';
 
 import './styles/App.css';
 
@@ -21,6 +22,7 @@ function App() {
       <main>
         <Home />
         <About />
+        <Dashboard />
         <Services />
         <Contact />
       </main>
